@@ -9,7 +9,8 @@ export const usePosts = async () => {
         await delay(1000)
         return useFetch<PostsResponse>(apiUrl, {
             method: 'get',
-            key: 'posts'
+            key: 'posts',
+            transform: (data) => data
         })
     }
 
