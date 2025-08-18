@@ -1,15 +1,12 @@
 <script setup lang="ts">
-
-   useHead({
+useHead({
+  title: "Works",
   titleTemplate: `%s - Works`,
 });
-
 </script>
 
 <template>
-  <div>
-    Page: works
-  </div>
+  <section>Page: works</section>
 </template>
 
 <style scoped></style>

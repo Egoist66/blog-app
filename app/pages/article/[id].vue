@@ -2,12 +2,12 @@
 
 </script>
 <template>
-    <div>
+    <section>
 
 
         Article with ID{{ $route.params.id }} 
 
-    </div>
+    </section>
 </template>
 
 
