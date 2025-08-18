@@ -6,7 +6,9 @@ useHead({
 </script>
 
 <template>
-  <section>Page: works</section>
+  <section>
+    <h1 class="text-[80px] pb-9">Works</h1>
+  </section>
 </template>
 
 <style scoped></style>

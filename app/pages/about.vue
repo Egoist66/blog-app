@@ -9,7 +9,7 @@
 
 <template>
   <section>
-    Page: about
+    <h1 class="text-[80px] pb-9">About</h1>
   </section>
 </template>
 

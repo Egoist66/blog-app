@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.scss"],
   runtimeConfig: {
-     public: {
+    public: {
       apiUrl: import.meta.env.NUXT_PUBLIC_API_POSTS_URL, // Доступно и на клиенте
     },
   },
@@ -14,9 +14,14 @@ export default defineNuxtConfig({
 
     viewTransition: true,
     head: {
-      link: [],
+      link: [
+        {
+          rel: "icon",
+          type: "image/x-icon",
+          href: "/Qtim.svg",
+        },
+      ],
       script: [{ src: "" }],
-
       title: "QTIM",
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -52,12 +57,7 @@ export default defineNuxtConfig({
     storesDirs: ["./stores/**", "./custom-folder/stores/**"],
   },
 
-
-   typescript: {
+  typescript: {
     typeCheck: import.meta.dev,
   },
-
-  
-
- 
 });
