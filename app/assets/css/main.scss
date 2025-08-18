@@ -1,4 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
+@import './page-transition.scss';
+@import './colors.scss';
+
+
+
+
+
+
+body,html {
+    font-family: Roboto;
+}
+section {
+    @apply pb-[140px];
+}
