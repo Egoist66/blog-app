@@ -16,7 +16,7 @@ import { Post } from '../../entities/posts.types';
     <div class="flex items-center gap-8">
       <NuxtLink target="_blank" class="border-b border-black" to="https://www.behance.net">Behance</NuxtLink>
       <NuxtLink target="_blank" class="border-b border-black" to="https://www.linkedin.com">LinkedIn</NuxtLink>
-      <NuxtLink target="_blank" class="border-b border-black" to="/privacy-policy">Privacy Policy</NuxtLink>
+      <NuxtLink  class="border-b border-black" to="/privacy-policy">Privacy Policy</NuxtLink>
     </div>
   </nav>
 </template>
