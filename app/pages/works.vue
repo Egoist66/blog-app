@@ -1,6 +1,5 @@
 <script setup lang="ts">
 useHead({
-  title: "Works",
   titleTemplate: `%s - Works`,
 });
 </script>

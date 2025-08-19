@@ -1,7 +1,6 @@
 <script setup lang="ts">
 
   useHead({
-    title: "About",
     titleTemplate: `%s - About`,
   });
 
