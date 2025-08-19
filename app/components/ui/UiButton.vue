@@ -28,7 +28,7 @@ const computedButtonColor = computed(() => {
 
 
 <template>
-    <button :class="`ui-button cursor-pointe p-4`">
+    <button :class="`ui-button cursor-pointe p-3`">
         <slot/>
     </button>
 </template>
