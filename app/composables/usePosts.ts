@@ -24,10 +24,15 @@ export const usePosts = async () => {
 
 
     const {data, error, status} = await getPosts()
+    const {dataPagination, setActivePage, paginateWithKeyboard, activePage, pages} = usePagination(data)
 
 
     return {
-        data,
+        dataPagination,
+        pages,
+        setActivePage,
+        paginateWithKeyboard,
+        activePage,
         error,
         status
     }

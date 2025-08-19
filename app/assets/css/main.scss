@@ -9,9 +9,16 @@
 
 
 
+* {
+    box-sizing: border-box;
+}
 
 body,html {
     font-family: Roboto;
+}
+
+body {
+    overflow-x: hidden
 }
 section {
     @apply pb-[140px];
